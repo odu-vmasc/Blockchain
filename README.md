@@ -2,10 +2,10 @@
 
 ## 
 __Fabric - example blockchain platform__
-* Fabric samples
-   Located at [/fabric/examples/fabric-samples](https://github.com/odu-vmasc/Blockchain/tree/master/fabric/examples/fabric-samples)
-   Example with Certificate Authority
-   Both examples utilize a crypto-config.yaml file that controls the crypto settings
+* Fabric samples Located at [/fabric/examples/fabric-samples](https://github.com/odu-vmasc/Blockchain/tree/master/fabric/examples/fabric-samples).
+
+   Both examples utilize a crypto-config.yaml file that controls the crypto settings and have scripts to start the network.
+
    The scripts utilize the cryptogen executable located [/fabric/build/bin/](https://github.com/odu-vmasc/Blockchain/tree/master/fabric/build/bin)
    * [First-network](https://github.com/odu-vmasc/Blockchain/tree/master/fabric/examples/fabric-samples/first-network) just uses crypto cert files without certificate authority
    Can run the build your first network (byfn.sh) script file to automatically generate files and run network.
