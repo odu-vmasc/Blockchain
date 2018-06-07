@@ -1,0 +1,1000 @@
+ 1075  ls
+ 1076  cp ../artifacts_generation/generateArtifacts.sh /generateArtifacts.sh
+ 1077  sudo cp ../artifacts_generation/generateArtifacts.sh /generateArtifacts.sh
+ 1078  ls
+ 1079  sudo cp ../artifacts_generation/generateArtifacts.sh generateArtifacts.sh
+ 1080  ls
+ 1081  ls /
+ 1082  sudo rm /generateArtifacts.sh 
+ 1083  ls
+ 1084  vim generateArtifacts.sh 
+ 1085  ls
+ 1086  ls -ls
+ 1087  ls -ls crypto-config
+ 1088  bash ./generateArtifacts.sh 
+ 1089  vim generateArtifacts.sh 
+ 1090  bash ./generateArtifacts.sh 
+ 1091  ls ../../../../
+ 1092  ls ../../../
+ 1093  ls ../../../../../
+ 1094  ls $PWD/../../../../../
+ 1095  vim generateArtifacts.sh 
+ 1096  bash ./generateArtifacts.sh 
+ 1097  ls -ls
+ 1098  cd crypto-config/
+ 1099  ls -ls
+ 1100  cd peerOrganizations/
+ 1101  ls
+ 1102  cd org1.example.com/
+ 1103  ls
+ 1104  cd peers/
+ 1105  ls
+ 1106  cd ../../../
+ 1107  lls
+ 1108  cd ..
+ 1109  ls
+ 1110  vim orderer-kafka.yaml 
+ 1111  vim configtx.yaml 
+ 1112  vim orderer-kafka.yaml 
+ 1113  docker ps
+ 1114  docker exec -it fabric-cli2 bash
+ 1115  ls
+ 1116  cd ..
+ 1117  cd scripts/
+ 1118  ls
+ 1119  vim initialize_all.sh 
+ 1120  vim back_func.sh 
+ 1121  docker exec -it fabric-cli2 bash
+ 1122  ls
+ 1123  cd ..
+ 1124  ls
+ 1125  cd kafka/
+ 1126  ls
+ 1127  cd crypto-config/
+ 1128  ls
+ 1129  cd peerOrganizations/
+ 1130  ls
+ 1131  cd org1.example.com/
+ 1132  ls
+ 1133  cd peers/
+ 1134  ls
+ 1135  cd peer2.org1.example.com/
+ 1136  ls
+ 1137  cd tls/
+ 1138  ls
+ 1139  cd ../../../../
+ 1140  ls
+ 1141  cd ..
+ 1142  ls
+ 1143  cd ..
+ 1144  ls
+ 1145  cd ..
+ 1146  ls
+ 1147  cd scripts/
+ 1148  ls
+ 1149  docker ps
+ 1150  ./clean_env.sh 
+ 1151  cd ..
+ 1152  ls
+ 1153  docker rmi -f $(docker images -a -q)
+ 1154  docker images -a -q
+ 1155  docker images
+ 1156  ls
+ 1157  cd kafka/
+ 1158  ls
+ 1159  docker-compose -f orderer-kafka.yaml up
+ 1160  docker-compose -f orderer-kafka.yaml down
+ 1161  ls
+ 1162  vim crypto-config.yaml 
+ 1163  vim generateArtifacts.sh 
+ 1164  cd ../../../../../../
+ 1165  cd fabric1
+ 1166  ls
+ 1167  cd examples/
+ 1168  ls
+ 1169  cd docker-compose-files/
+ 1170  ls
+ 1171  cd hyperledger/
+ 1172  ls
+ 1173  cd ex_1.0/
+ 1174  ls
+ 1175  cd kafka/
+ 1176  ls
+ 1177  vim crypto-config
+ 1178  vim crypto-config.yaml 
+ 1179  vim generateArtifacts.sh 
+ 1180  ls
+ 1181  vim generateArtifacts.sh 
+ 1182  export CRYTPOGEN=/usr/local/go/src/github.com/hyperledger/fabric/release/linux-amd64/bin/cryptogen
+ 1183  $CRYPTOGEN generate --config=./crypto-config.yaml
+ 1184  export CRYPTOGEN=/usr/local/go/src/github.com/hypeedger/fabric/release/linux-amd64/bin/cryptogen
+ 1185  $CRYPTOGEN generate --config=./crypto-config.yaml
+ 1186  export CRYPTOGEN=/usr/local/go/src/github.com/hyperledger/fabric/release/linux-amd64/bin/cryptogen
+ 1187  $CRYPTOGEN generate --config=./crypto-config.yaml
+ 1188  ls
+ 1189  cd ..
+ 1190  cd scripts/
+ 1191  ./clean_env.sh 
+ 1192  cd ..
+ 1193  cd kafka/
+ 1194  ls
+ 1195  docker-compose -f orderer-kafka.yaml up
+ 1196  docker-compose -f orderer-kafka.yaml down
+ 1197  docker ps
+ 1198  docker logs peer2.org1.example.com 
+ 1199  docker logs peer1.org1.example.com 
+ 1200  docker logs peer1.org2.example.com 
+ 1201  docker logs peer0.org2.example.com 
+ 1202  docker logs peer1.org2.example.com 
+ 1203  docker logs peer2.org2.example.com 
+ 1204  docker ps
+ 1205  ls
+ 1206  docker ps
+ 1207  cd ../../../../
+ 1208  cd ../../
+ 1209  ls
+ 1210  cd fabric
+ 1211  ls
+ 1212  cd examples/
+ 1213  ls
+ 1214  cd e2e_cli/
+ 1215  ls
+ 1216  cd channel-artifacts/
+ 1217  ls
+ 1218  cd genesis.block/
+ 1219  ls
+ 1220  cd ..
+ 1221  ls
+ 1222  cd ..
+ 1223  ls
+ 1224  cd crypto-config/
+ 1225  ls
+ 1226  cd ordererOrganizations/
+ 1227  ls
+ 1228  cd example.com/
+ 1229  ls
+ 1230  cd ..
+ 1231  docker ps
+ 1232  docker logs peer1.org1.example.com 
+ 1233  docker ps
+ 1234  docker logs peer2.org1.example.com 
+ 1235  docker logs peer1.org2.example.com 
+ 1236  ls
+ 1237  docker ps
+ 1238  ls
+ 1239  cd ..
+ 1240  ls
+ 1241  cd crypto-config/y
+ 1242  cd crypto-config/
+ 1243  ls
+ 1244  cd ..
+ 1245  ls
+ 1246  vim docker-compose-cli.yaml 
+ 1247  cd base/
+ 1248  ls
+ 1249  vim docker-compose-base.yaml 
+ 1250  ls
+ 1251  cd ..
+ 1252  ls
+ 1253  docker ps
+ 1254  ls
+ 1255  sudo ./network_setup.sh down
+ 1256  vim network_setup.sh 
+ 1257  ls
+ 1258  vim end-to-end.rst 
+ 1259  cd ..
+ 1260  ls
+ 1261  cp -r e2e_cli/ mode2e
+ 1262  sudo cp -r e2e_cli/ mode2e
+ 1263  ls
+ 1264  sudo rm e2e_cli/
+ 1265  sudo rm pr e2e_cli/
+ 1266  sudo rm -r e2e_cli/
+ 1267  ls
+ 1268  docker ps
+ 1269  ls
+ 1270  cd e2e_cli/
+ 1271  ls
+ 1272  cd channel-artifacts/
+ 1273  ls
+ 1274  cd ..
+ 1275  ls
+ 1276  cd crypto-config/
+ 1277  ls
+ 1278  cd ordererOrganizations/
+ 1279  ls
+ 1280  cd example.com/
+ 1281  ls
+ 1282  cd orderers/
+ 1283  ls
+ 1284  cd orderer.example.com/
+ 1285  ls
+ 1286  cd msp/
+ 1287  ls
+ 1288  cd ../../../../../../
+ 1289  ls
+ 1290  docker ps
+ 1291  docker logs peer2.org1.example.com 
+ 1292  :q!
+ 1293  docker logs peer1.org1.example.com 
+ 1294  docker logs peer2.org1.example.com 
+ 1295  docker logs orderer.example.com 
+ 1296  docker ps
+ 1297  docker logs peer2.org1.example.com 
+ 1298  docker ps
+ 1299  ls
+ 1300  vim crypto-config.yaml 
+ 1301  vim configtx.yaml 
+ 1302  cd channel-artifacts/
+ 1303  ls
+ 1304  vim Org1MSPanchors.tx 
+ 1305  cd ..
+ 1306  ls
+ 1307  docker logs orderer.example.com 
+ 1308  docker inspect peer2.org1.example.com 
+ 1309  docker ps
+ 1310  docker logs orderer.example.com 
+ 1311  docker ps
+ 1312  docker logs peer2.org1.example.com 
+ 1313  ls
+ 1314  vim scripts/script.sh 
+ 1315  docker ps
+ 1316  docker logs peer2.org1.example.com 
+ 1317  ls
+ 1318  docker ps
+ 1319  ls
+ 1320  ls
+ 1321  cd graphical_
+ 1322  cd graphical_sentara/
+ 1323  ls
+ 1324  sudo atom
+ 1325  cd ..
+ 1326  ls
+ 1327  cp -r fabric-samples/ fabric-samples-sentara
+ 1328  cd fabric-samples-sentara/
+ 1329  ls
+ 1330  cd ..
+ 1331  ls
+ 1332  cp -r fabric-samples back_fabric-samples
+ 1333  ls
+ 1334  cd fabric-samples
+ 1335  ls
+ 1336  cd balance-transfer/
+ 1337  ls
+ 1338  ./runApp.sh 
+ 1339  docker ps
+ 1340  ls
+ 1341  vim runApp.sh 
+ 1342  docker images
+ 1343  cd ..
+ 1344  ls
+ 1345  cd balance-transfer/
+ 1346  ls
+ 1347  cd artifacts/
+ 1348  ls
+ 1349  vim docker-compose.yaml 
+ 1350  vim base.yaml 
+ 1351  vim docker-compose.yaml 
+ 1352  cd ..
+ 1353  vim runApp.sh 
+ 1354  cd artifacts/
+ 1355  ls
+ 1356  docker-compose -f docker-compose.yaml up
+ 1357  vim docker-compose.yaml 
+ 1358  docker images
+ 1359  docker pull hyperledger/fabric-ca:latest
+ 1360  docker pull hyperledger/fabric-ca
+ 1361  ls
+ 1362  vim docker-compose.yaml 
+ 1363  vim base.yaml 
+ 1364  cd ..
+ 1365  ./runApp.sh 
+ 1366  docker ps
+ 1367  cd artifacts/
+ 1368  ls
+ 1369  docker-compose -f docker-compose.yaml down
+ 1370  npm -v
+ 1371  node -v
+ 1372  scp
+ 1373  ping k8s-001774.vmasc.odu.edu
+ 1374  ls
+ 1375  cd ..
+ 1376  ls
+ 1377  cd artifacts/
+ 1378  ls
+ 1379  cd src/github.com/
+ 1380  ls
+ 1381  cd ../../../../
+ 1382  ls
+ 1383  cd ..
+ 1384  cd fabric-samples
+ 1385  ls
+ 1386  cd balance-transfer/`
+ 1387  cd balance-transfer/
+ 1388  ls
+ 1389  cd ..
+ 1390  ls
+ 1391  cd graphical_sentara/
+ 1392  ls
+ 1393  firefox index.html 
+ 1394  ls
+ 1395  firefox index.html 
+ 1396  ls
+ 1397  cp ~/Pictures/hf_Sentara/sentara.jpg sentara.jpg
+ 1398  sudo cp ~/Pictures/hf_Sentara/sentara.jpg sentara.jpg
+ 1399  ls
+ 1400  firefox index.html 
+ 1401  ls
+ 1402  firefox index.html 
+ 1403  vim index.
+ 1404  vim index.html 
+ 1405  docker ps
+ 1406  ls
+ 1407  docker ps
+ 1408  docker logs dev-peer0.org1.example.com-mycc9-1.0 
+ 1409  docker ps
+ 1410  docker logs dev-peer0.org1.example.com-mycc9-1.0 
+ 1411  cd ..
+ 1412  ls
+ 1413  cd basic-network/
+ 1414  ls
+ 1415  ./start.sh 
+ 1416  docker ps
+ 1417  ls
+ 1418  cd config/
+ 1419  ls
+ 1420  cd ..
+ 1421  ls
+ 1422  cd ..
+ 1423  ls
+ 1424  cd bin/
+ 1425  ls
+ 1426  cd ..
+ 1427  ls
+ 1428  cd chaincode
+ 1429  ls
+ 1430  cd ..
+ 1431  ls
+ 1432  cd scripts/
+ 1433  ls
+ 1434  cd ..
+ 1435  ls
+ 1436  cd chaincode
+ 1437  ls
+ 1438  cd hyperledger/
+ 1439  ls
+ 1440  cd fabric/
+ 1441  ls
+ 1442  cd ../../../
+ 1443  ls
+ 1444  cd first-network/
+ 1445  ls
+ 1446  cd ..
+ 1447  ls
+ 1448  cd base
+ 1449  cd basic-network/
+ 1450  ls
+ 1451  ./teardown.sh 
+ 1452  docker images
+ 1453  docker rmi -f $(docker images -a -q)
+ 1454  docker images
+ 1455  ls
+ 1456  cd ..
+ 1457  ls
+ 1458  cd first-network/
+ 1459  ls
+ 1460  cd scripts/
+ 1461  ls
+ 1462  cd ..
+ 1463  ls
+ 1464  vim byfn.sh 
+ 1465  ./byfn.sh -m generate -c mychannel
+ 1466  vim byfn.sh 
+ 1467  byfn.sh -m up -c mychannel -s couchdb
+ 1468  ./byfn.sh -m up -c mychannel -s couchdb
+ 1469  vim byfn.sh 
+ 1470  ./byfn.sh -m down -c mychannel
+ 1471  ls
+ 1472  ./byfn.sh -m generate -c histChannel
+ 1473  ./byfn.sh -m up -c histChannel -s couchdb
+ 1474  docker ps
+ 1475  ./byfn.sh -m down -c histChannel
+ 1476  docker ps
+ 1477  ./byfn.sh -m up -c histchannel -s couchdb
+ 1478  ./byfn.sh -m generate -c histchannel
+ 1479  ./byfn.sh -m up -c histchannel -s couchdb
+ 1480  ./byfn.sh -m down -c histChannel
+ 1481  ./byfn.sh -m down -c histchannel
+ 1482  ./byfn.sh -m up -c histchannel -s couchdb
+ 1483  ./byfn.sh -m down -c histchannel
+ 1484  ./byfn.sh -m up -c histchannel -s couchdb
+ 1485  docker ps
+ 1486  ./byfn.sh -m down -c histchannel
+ 1487  docker logs --follow peer0.org1.example.com 
+ 1488  cd ../../
+ 1489  cd fabric
+ 1490  ls
+ 1491  cd release
+ 1492  ls
+ 1493  cd linux-amd64/
+ 1494  ls
+ 1495  cd bin/
+ 1496  ls
+ 1497  echo $PWD
+ 1498  ls
+ 1499  cd ../../
+ 1500  cd ..
+ 1501  ls
+ 1502  cd examples/
+ 1503  ls
+ 1504  cd docker-compose-files/hyperledger/ex_1.0/kafka/
+ 1505  ls
+ 1506  docker ps
+ 1507  vim ../../1.0/kafka/orderer-kafka.yaml 
+ 1508  ls
+ 1509  vim docker-compose-base.yaml 
+ 1510  docker ps
+ 1511  docker logs peer0.org1.example.com 
+ 1512  docker logs --follow peer0.org1.example.com 
+ 1513  docker logs --follow peer1.org1.example.com 
+ 1514  docker logs --follow peer2.org1.example.com 
+ 1515  docker logs --follow peer0.org2.example.com 
+ 1516  docker logs --follow peer1.org2.example.com 
+ 1517  docker logs --follow peer2.org2.example.com 
+ 1518  docker logs --follow peer0.org1.example.com 
+ 1519  docker logs peer1.org2.example.com 
+ 1520  docker logs peer1.org1.example.com 
+ 1521  docker logs peer0.org1.example.com 
+ 1522  docker logs peer2.org2.example.com 
+ 1523  ls
+ 1524  export FABRIC_ROOT=$PWD/../../../../../
+ 1525  export CRYPTOGEN=$FABRIC_ROOT/release/$OS_ARCH/bin/cryptogen
+ 1526  $CRYPTOGEN generate --config=./crypto-config.yaml
+ 1527  export FABRIC_ROOT=$PWD/../../../../..
+ 1528  export CRYPTOGEN=$FABRIC_ROOT/release/$OS_ARCH/bin/cryptogen
+ 1529  $CRYPTOGEN generate --config=./crypto-config.yaml
+ 1530  export CRYPTOGEN=/usr/local/go/src/github.com/hyperledger/fabric/release/linux-amd64/bin/cryptogen
+ 1531  $CRYPTOGEN generate --config=./crypto-config.yaml
+ 1532  ls
+ 1533  vim configtx.yaml 
+ 1534  vim docker-compose-base.yaml 
+ 1535  cd crypto-config/
+ 1536  ls
+ 1537  cd peerOrganizations/
+ 1538  ls
+ 1539  cd org2.example.com/
+ 1540  ls
+ 1541  cd peers/
+ 1542  ls
+ 1543  cd pee2
+ 1544  cd peer2.org2.example.com/
+ 1545  ls
+ 1546  cd tls/
+ 1547  ls
+ 1548  cd ../../../../
+ 1549  cd ../../
+ 1550  ls
+ 1551  cd ..
+ 1552  cd scripts/
+ 1553  ls
+ 1554  ./clean_env.sh 
+ 1555  ls
+ 1556  cd ..
+ 1557  cd kafka/
+ 1558  ls
+ 1559  docker-compose -f orderer-kafka.yaml up
+ 1560  ls
+ 1561  docker ps
+ 1562  docker-compose -f orderer-kafka.yaml down
+ 1563  docker ps
+ 1564  ls
+ 1565  vim docker-compose-base.yaml 
+ 1566  ls
+ 1567  export CRYPTOGEN=/usr/local/go/src/github.com/hyperledger/fabric/build/bin/cryptogen
+ 1568  echo $CRYPTOGEN
+ 1569  $CRYPTOGEN generate --config=./crypto-config.yaml
+ 1570  ls
+ 1571  vim docker-compose-base.yaml 
+ 1572  vim orderer-kafka-base.yaml 
+ 1573  vim orderer-kafka
+ 1574  vim orderer-kafka.yaml 
+ 1575  vim orderer-base.yaml 
+ 1576  vim docker-compose-base.yaml 
+ 1577  vim orderer-kafka.yaml 
+ 1578  vim docker-compose-base.yaml 
+ 1579  cd ..
+ 1580  ls
+ 1581  cd scripts/
+ 1582  ls
+ 1583  ./clean_env.sh 
+ 1584  ls
+ 1585  cd ..
+ 1586  ls
+ 1587  cd kafka/
+ 1588  ls
+ 1589  docker-compose -f orderer-kafka.yaml up
+ 1590  docker-compose -f orderer-kafka.yaml down
+ 1591  docker ps
+ 1592  docker logs peer1.org1.example.com 
+ 1593  docker ps
+ 1594  cd ..
+ 1595  docker exec -it cli bash
+ 1596  sudo wireshark
+ 1597  cd ..
+ 1598  ls
+ 1599  cd ..
+ 1600  cd ../../../
+ 1601  ls
+ 1602  cd 1.0
+ 1603  ls
+ 1604  cd kafka/
+ 1605  ls
+ 1606  vim orderer-kafka.yaml 
+ 1607  docker ps
+ 1608  ls
+ 1609  cd crypto-config/`
+ 1610  cd crypto-config/
+ 1611  ls
+ 1612  cd ordererOrganizations/
+ 1613  ls
+ 1614  cd example.com/
+ 1615  ls
+ 1616  cd orderers/
+ 1617  ls
+ 1618  cd ../../../../../../
+ 1619  cd 1.0/kafka/
+ 1620  ls
+ 1621  cd ..
+ 1622  docker ps
+ 1623  docker exec -it fabric-cli bash
+ 1624  docker ps
+ 1625  ls
+ 1626  docker ps
+ 1627  docker exec -it peer0.org1.example.com 
+ 1628  docker exec -it peer0.org1.example.com bash
+ 1629  ls
+ 1630  docker ps
+ 1631  ls
+ 1632  cd kafka/
+ 1633  ls
+ 1634  docker ps
+ 1635  ls
+ 1636  vim README.md 
+ 1637  ls
+ 1638  cd ..
+ 1639  ls
+ 1640  cd scripts/
+ 1641  ls
+ 1642  vim download_
+ 1643  vim download_official_images.sh
+ 1644  ls
+ 1645  cd ..
+ 1646  ls
+ 1647  cd ..
+ 1648  ls
+ 1649  cp -r 1.0 bookchapter
+ 1650  ls
+ 1651  cd bookchapter/
+ 1652  ls
+ 1653  vim README.md 
+ 1654  ls -a
+ 1655  vim Makefile 
+ 1656  cd kafka/
+ 1657  ls
+ 1658  cd ..
+ 1659  ls
+ 1660  vim docker-compose
+ 1661  vim docker-compose.yaml 
+ 1662  vim docker-compose-dev.yaml 
+ 1663  vim docker-compose-2orgs-4peers.yaml 
+ 1664  cd kafka/
+ 1665  ls
+ 1666  vim docker-compose-base.yaml 
+ 1667  ls
+ 1668  vim README.md 
+ 1669  ls
+ 1670  cd ..
+ 1671  ls
+ 1672  cd scripts/
+ 1673  ls
+ 1674  cd ..
+ 1675  ls
+ 1676  cd docs
+ 1677  ls
+ 1678  vim artifacts_generation.md 
+ 1679  ls
+ 1680  vim setup.md 
+ 1681  ls
+ 1682  vim kafka_usage.md 
+ 1683  vim docker-compose-1peer-usage.md 
+ 1684  cd ..
+ 1685  ls
+ 1686  cd scripts/
+ 1687  ls
+ 1688  cd ..
+ 1689  cd scripts/
+ 1690  ls
+ 1691  vim func.sh 
+ 1692  vim func2.sh 
+ 1693  cp func2.sh func.sh 
+ 1694  ls
+ 1695  vim func.sh 
+ 1696  cd ..
+ 1697  ls
+ 1698  cd scripts/
+ 1699  ls
+ 1700  cd ..
+ 1701  ls
+ 1702  vim docker-compose.yaml 
+ 1703  cd scripts/
+ 1704  ls
+ 1705  cd ..
+ 1706  cd e2e_cli/
+ 1707  ls
+ 1708  cd scripts/
+ 1709  ls
+ 1710  cd ..
+ 1711  ls
+ 1712  cd scripts/
+ 1713  ls
+ 1714  vim script.sh 
+ 1715  ls
+ 1716  cd ..
+ 1717  ls
+ 1718  cd ..
+ 1719  ls
+ 1720  cd kafka/
+ 1721  ls
+ 1722  vim orderer-kafka.yaml 
+ 1723  cd ..
+ 1724  ls
+ 1725  vim docker-compose.yaml 
+ 1726  vim docker-compose-1peer.yaml 
+ 1727  vim docker-compose-base.yaml 
+ 1728  vim base.yaml 
+ 1729  docker-compose -f docker-compose-1peer.yaml up
+ 1730  docker-compose -f docker-compose-2orgs-4peers.yaml up
+ 1731  docker ps
+ 1732  docker-compose -f docker-compose-1peer.yaml down
+ 1733  docker ps
+ 1734  docker-compose -f docker-compose-2orgs-4peers.yaml down
+ 1735  docker-compose -f docker-compose-2orgs-4peers.yaml up
+ 1736  docker-compose -f docker-compose-2orgs-4peers.yaml down
+ 1737  ls
+ 1738  cd kafka/
+ 1739  ls
+ 1740  cd ..
+ 1741  ls
+ 1742  docker ps
+ 1743  cd kafka/
+ 1744  ls
+ 1745  cd ..
+ 1746  ls
+ 1747  vim docker-compose.yaml 
+ 1748  docker ps
+ 1749  docker images
+ 1750  ls
+ 1751  cd kafka/
+ 1752  ls
+ 1753  docker-compose -f orderer-kafka.yaml up
+ 1754  docker ps -aq
+ 1755  docker stop $(dockerps -aq)
+ 1756  docker stop 0c0da0be7c4f
+ 1757  docker ps -aq
+ 1758  docker kill 0c0da0be7c4f
+ 1759  docker ps
+ 1760  docker-compose -f orderer-kafka.yaml down
+ 1761  docker ps -aq
+ 1762  docker stop $(docker ps -aq)
+ 1763  docker ps -aq
+ 1764  docker kill $(docker ps -aq)
+ 1765  docker ps -a
+ 1766  ls
+ 1767  docker-compose -f orderer-kafka.yaml up
+ 1768  docker ps
+ 1769  docker start 0c0da0be7c4fd32460a064f00ad9e7621a27ffa4a8c6813b5f306f7f4b5b2436
+ 1770  docker ps
+ 1771  docker kill 0c0da0be7c4fd32460a064f00ad9e7621a27ffa4a8c6813b5f306f7f4b5b2436
+ 1772  docker ps -a
+ 1773  docker kill 0c0da0be7c4f
+ 1774  docker start 0c0da0be7c4fd32460a064f00ad9e7621a27ffa4a8c6813b5f306f7f4b5b2436
+ 1775  docker start 0c0da0be7c4f
+ 1776  docker kill 0c0da0be7c4f
+ 1777  docker start 0c0da0be7c4f
+ 1778  docker ps
+ 1779  docker inspect 0c0da0be7c4f
+ 1780  ls
+ 1781  docker remove 0c0da0be7c4f
+ 1782  docker rm -f $(docker ps -a -q)
+ 1783  docker ps -a
+ 1784  ls
+ 1785  docker images
+ 1786  cd ..
+ 1787  ls
+ 1788  docker-compose -f docker-compose-1peer.yaml up
+ 1789  vim docker-compose.yaml 
+ 1790  docker ps
+ 1791  docker exec -it cli
+ 1792  docker exec -it cli bash
+ 1793  ls
+ 1794  docker ps
+ 1795  ls
+ 1796  cd fabric-samples/
+ 1797  ls
+ 1798  cd balance-transfer/
+ 1799  ls
+ 1800  docker ps
+ 1801  cd ..
+ 1802  ls
+ 1803  cd ..
+ 1804  ls
+ 1805  cd kafka/
+ 1806  ls
+ 1807  docker-compose orderer-kafka.yaml down
+ 1808  docker-compose -f orderer-kafka.yaml down
+ 1809  cd ..
+ 1810  ls
+ 1811  cd fabric-samples/
+ 1812  ls
+ 1813  cd balance-transfer/
+ 1814  ls
+ 1815  cd ..
+ 1816  ls
+ 1817  cd scripts/
+ 1818  ls
+ 1819  cd ..
+ 1820  ls
+ 1821  cd balance-transfer/
+ 1822  ls
+ 1823  cd ..
+ 1824  ls
+ 1825  cd ..
+ 1826  ls
+ 1827  cd fabric-samples/
+ 1828  ls
+ 1829  rn balance-transfer/ back-balance-transfer
+ 1830  mv balance-transfer/ back-balance-transfer
+ 1831  ls
+ 1832  scp pfoytik@k8s-001774.vmasc.odu.edu:/balance-transfer /balance-transfer
+ 1833  scp pfoytik@k8s-001774.vmasc.odu.edu:/home/pfoytik/balance-transfer /balance-transfer
+ 1834  scp -r pfoytik@k8s-001774.vmasc.odu.edu:/home/pfoytik/balance-transfer /balance-transfer
+ 1835  sudo scp -r pfoytik@k8s-001774.vmasc.odu.edu:/home/pfoytik/balance-transfer /balance-transfer
+ 1836  ls
+ 1837  cd //
+ 1838  cd /
+ 1839  ls
+ 1840  cp -r balance-transfer/ /usr/local/go/src/github.com/hyperledger/fabric/examples/docker-compose-files/hyperledger/bookchapter/fabric-samples/
+ 1841  cd /usr/local/go/src/github.com/hyperledger/fabric/examples/docker-compose-files/hyperledger/bookchapter/fabric-samples/
+ 1842  ls
+ 1843  cd balance-transfer/
+ 1844  ls
+ 1845  vim runApp.sh 
+ 1846  cd ..
+ 1847  ls
+ 1848  cd kafka/
+ 1849  ls
+ 1850  vim orderer-kafka.yaml 
+ 1851  docker-compose -f orderer-kafka.yaml up
+ 1852  docker ps
+ 1853  docker exec -it fabric-cli bash
+ 1854  ls
+ 1855  docker exec -it fabric-cli bash
+ 1856  docker ps
+ 1857  docker exec -it fabric-cli bash
+ 1858  docker images
+ 1859  docker rm f63213dae92e, 857250d791ca
+ 1860  docker images
+ 1861  docker rmi f63213dae92e, 857250d791ca
+ 1862  docker rmi -f f63213dae92e, 857250d791ca
+ 1863  docker images
+ 1864  docker rmi -f f63213dae92e
+ 1865  docker images
+ 1866  docker ps
+ 1867  docker exec -it fabric-cli bash
+ 1868  docker images
+ 1869  docker ps
+ 1870  docker exec -it fabric-cli bash
+ 1871  ls
+ 1872  cd ..
+ 1873  ls
+ 1874  cd e2e_cli/
+ 1875  ls
+ 1876  cd examples/
+ 1877  ls
+ 1878  cd chaincode/
+ 1879  ls
+ 1880  cd go/
+ 1881  ls
+ 1882  cd sentara_single/
+ 1883  ls
+ 1884  vim sentara_single.go 
+ 1885  ls -ls
+ 1886  docker ps
+ 1887  docker exec -it fabric-cli bash
+ 1888  cd ..
+ 1889  ls
+ 1890  cd ../../../../
+ 1891  ls
+ 1892  cd 1.0
+ 1893  ls
+ 1894  cd kafka/
+ 1895  ls
+ 1896  cd crypto-config/
+ 1897  ls
+ 1898  cd ordererOrganizations/
+ 1899  ls
+ 1900  cd example.com/
+ 1901  ls
+ 1902  cd users/
+ 1903  ls
+ 1904  cd Admin@example.com/
+ 1905  ls
+ 1906  cd msp/
+ 1907  ls
+ 1908  cd ..
+ 1909  cd tls/
+ 1910  ls
+ 1911  cd ../../
+ 1912  cd ../
+ 1913  ls
+ 1914  cd ca/
+ 1915  ls
+ 1916  vim ca.example.com-cert.pem 
+ 1917  cd ..
+ 1918  ls
+ 1919  cd orderers/
+ 1920  ls
+ 1921  cd orderer.example.com/
+ 1922  ls
+ 1923  cd ../../../
+ 1924  ls
+ 1925  cd ..
+ 1926  ls
+ 1927  cd peerOrganizations/
+ 1928  ls
+ 1929  cd org1.example.com/
+ 1930  ls
+ 1931  cd ca/
+ 1932  ls
+ 1933  cd ..
+ 1934  ls
+ 1935  cd msp/
+ 1936  ls
+ 1937  cd admincerts/
+ 1938  ls
+ 1939  cd ..
+ 1940  ls
+ 1941  cd cacerts/
+ 1942  ls
+ 1943  cd ..
+ 1944  ls
+ 1945  cd tlscacerts/
+ 1946  ls
+ 1947  cd ../../
+ 1948  ls
+ 1949  cd ..
+ 1950  ls
+ 1951  cd ..
+ 1952  ls
+ 1953  cd ..
+ 1954  ls
+ 1955  cd crypto-config/peerOrganizations/
+ 1956  ls
+ 1957  cd org1.example.com/
+ 1958  ls
+ 1959  cd users/
+ 1960  ls
+ 1961  cd User1@org1.example.com/
+ 1962  ls
+ 1963  cd msp/
+ 1964  ls
+ 1965  cd ..
+ 1966  ls
+ 1967  cd ..
+ 1968  ls
+ 1969  cd ..
+ 1970  ls
+ 1971  cd ..
+ 1972  ls
+ 1973  cd ..
+ 1974  ls
+ 1975  cd ..
+ 1976  ls
+ 1977  vim crypto-config.yaml 
+ 1978  ls
+ 1979  vim README.md 
+ 1980  vim orderer-kafka.yaml 
+ 1981  docker ps
+ 1982  docker exec -it fabric-cli2 bash
+ 1983  cd ..
+ 1984  cd scripts/
+ 1985  ls
+ 1986  vim justInvoke.sh 
+ 1987  vim back_func.sh 
+ 1988  vim initialize_all.sh 
+ 1989  docker ps
+ 1990  docker exec -it fabric-cli2 bash
+ 1991  ls
+ 1992  docker ps
+ 1993  docker logs peer1.org1.example.com 
+ 1994  vim back_func.sh 
+ 1995  docker ps
+ 1996  docker exec -it fabric-cli2 bash
+ 1997  ls
+ 1998  docker ps
+ 1999  docker exec -it fabric-cli bash
+ 2000  reboot
+ 2001  cd ..
+ 2002  ls
+ 2003  ls build/bin/
+ 2004  cd sampleconfig/
+ 2005  ls
+ 2006  sudo ./../build/bin/peer channel create -0 127.0.0.1:7050 -c ch1 -f ch1.tx
+ 2007  sudo ./../build/bin/peer channel create -o 127.0.0.1:7050 -c ch1 -f ch1.tx
+ 2008  ls
+ 2009  ping 127.0.0.1
+ 2010  ls
+ 2011  vim configtx.yaml 
+ 2012  sudo ./../build/bin/peer channel create -o 127.0.0.1:7050 -c ch1 -f ch1.tx
+ 2013  ls
+ 2014  sudo ./../build/bin/configtx -channelID ch1 -outputCreateChannelTx ch1.tx -profile
+ 2015  ./../build/bin/configtx -channelID ch1 -outputCreateChannelTx ch1.tx -profile
+ 2016  sudo ./../build/bin/configtx -channelID ch1 -outputCreateChannelTx ch1.tx -profile
+ 2017  sudo ./../build/bin/configtxgen -channelID ch1 -outputCreateChannelTx ch1.tx -profile
+ 2018  sudo ./../build/bin/configtxgen -channelID ch1 -outputCreateChannelTx ch1.tx -profile SampleSingleMSPChannel
+ 2019  sudo ./../build/bin/configtxgen -channelID ch2 -outputCreateChannelTx ch2.tx -profile SampleSingleMSPChannel
+ 2020  ls
+ 2021  sudo ./../build/bin/peer channel create -o 127.0.0.1:7050 -c ch1 -f ch1.tx
+ 2022  sudo ./../build/bin/peer channel create -o 127.0.0.1:7050 -c ch2 -f ch2.tx
+ 2023  CORE_CHAINCODE_LOGLEVEL=debug CORE_PEER_ADDRESS=127.0.0.1:7052 CORE_CHAINCODE_ID_NAME=mycc:0 ./../examples/chaincode/go/chaincode_example02/ chaincode_example02
+ 2024  ls ./../examples/chaincode/go/chaincode_example02/
+ 2025  cd ../examples/chaincode/go/chaincode_example02/
+ 2026  go build
+ 2027  ls
+ 2028  cd ../../../
+ 2029  cd ..
+ 2030  cd sampleconfig/
+ 2031  CORE_CHAINCODE_LOGLEVEL=debug CORE_PEER_ADDRESS=127.0.0.1:7052 CORE_CHAINCODE_ID_NAME=mycc:0 ./../examples/chaincode/go/chaincode_example02/ chaincode_example02
+ 2032  CORE_CHAINCODE_LOGLEVEL=debug CORE_PEER_ADDRESS=127.0.0.1:7052 CORE_CHAINCODE_ID_NAME=mycc:0 ./../examples/chaincode/go/chaincode_example02/chaincode_example02
+ 2033  ls
+ 2034  sudo ./../build/bin/peer channel create -o 127.0.0.1:7050 -c ch1 -f ch1.tx
+ 2035  sudo ./../build/bin/configtxgen -channelID ch1 -outputCreateChannelTx ch1.tx -profile SampleSingleMSPChannel
+ 2036  sudo ./../build/bin/configtxgen -channelID ch2 -outputCreateChannelTx ch2.tx -profile SampleSingleMSPChannel
+ 2037  sudo ./../build/bin/peer channel create -o 127.0.0.1:7050 -c ch1 -f ch1.tx
+ 2038  sudo ./../build/bin/configtxgen -channelID ch1 -outputCreateChannelTx ch1.tx -profile SampleSingleMSPChannel
+ 2039  sudo ./../build/bin/configtxgen -channelID ch2 -outputCreateChannelTx ch2.tx -profile SampleSingleMSPChannel
+ 2040  sudo ./../build/bin/peer channel create -o 127.0.0.1:7050 -c ch1 -f ch1.tx
+ 2041  curl 127.0.0.1:7050
+ 2042  ifconfig
+ 2043  ls
+ 2044  cd ..
+ 2045  ls
+ 2046  docker ps
+ 2047  cd examples/
+ 2048  ls
+ 2049  cd e2e_cli/
+ 2050  ls
+ 2051  vim network_setup.sh 
+ 2052  vim docker-compose-cli.yaml 
+ 2053  cd channel-artifacts/
+ 2054  ls
+ 2055  cd ..
+ 2056  ls
+ 2057  cd base/
+ 2058  ls
+ 2059  vim docker-compose-base.yaml 
+ 2060  cd ..
+ 2061  ls
+ 2062  history > history_for_print.txt
+ 2063  sudo history > history_for_print.txt
+ 2064  history 10
+ 2065  ls
+ 2066  vim history.txt
+ 2067  sudo vim history.txt
+ 2068  sudo history > history_for_print.txt
+ 2069  sudo history > history.txt
+ 2070  chmod 777 history.txt 
+ 2071  sudo chmod 777 history.txt 
+ 2072  ls
+ 2073  sudo history > history.txt
+ 2074  history > history.txt
